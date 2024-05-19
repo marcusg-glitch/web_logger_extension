@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Web Logger",
+    "version": "1.0",
+    "permissions": ["webNavigation", "http://localhost:8000/*"],
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
